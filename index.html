@@ -11,12 +11,21 @@
     <link rel="stylesheet" href="./styles/error.css" />
   </head>
   <body class="page">
+
     <main class="content">
+    
+      <!-- Левая часть секции -->
       <section class="result">
+
+        <!-- Контейнер для видео -->
         <div class="result__video-container">
           <video src="" controls class="result__video" poster=""></video>
         </div>
+
+        <!-- Форма поиска -->
         <form class="search-form">
+
+          <!-- Поле для ввода города -->
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
@@ -29,6 +38,8 @@
               />
             </label>
           </fieldset>
+
+          <!-- Поле для выбора времени суток -->
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
@@ -64,11 +75,15 @@
               </label>
             </div>
           </fieldset>
+
+          <!-- Кнопка для поиска -->
           <button type="submit" class="button search-form__submit-button">
             Найти
           </button>
         </form>
       </section>
+
+      <!-- Правая часть секции -->
       <section class="content__details">
         <h1 class="title">
           <span class="content__accent">По-</span><br />смотри<br />в окно
