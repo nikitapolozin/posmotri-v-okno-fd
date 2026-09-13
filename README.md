@@ -2,7 +2,7 @@
  
 Учебный проект курса «Фронтенд-разработчик» от ЯндексПрактикума (спринт 3, блок «Адаптивность и графика»).
  
-**[Демо-страница](https://github.com/nikitapolozin/posmotri-v-okno-fd.git)**
+**[Демо-страница](https://nikitapolozin.github.io/posmotri-v-okno-fd/)**
  
 ## Описание
  
